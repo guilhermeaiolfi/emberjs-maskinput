@@ -102,7 +102,7 @@ MI.MaskInput = Ember.TextField.extend({
 			'Z': /[A-Z]/,
 			'a': /[a-zA-Z]/,
 			'*': /[0-9a-zA-Z]/,
-			'@': /[0-9a-zA-ZçÇáàãâéèêíìóòôõúùü]/
+			'@': /[0-9a-zA-ZÃ§Ã‡Ã¡Ã Ã£Ã¢Ã©Ã¨ÃªÃ­Ã¬Ã³Ã²Ã´ÃµÃºÃ¹Ã¼]/
 		}, i;
 		for(i=0; i<=9; i++) rules[i] = new RegExp('[0-'+i+']');
 		return rules;
