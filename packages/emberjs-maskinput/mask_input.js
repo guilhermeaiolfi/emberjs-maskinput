@@ -109,7 +109,7 @@ MI.MaskInput = Ember.TextField.extend({
 	}.property().cacheable(),
 	
 	didInsertElement: function() {
-		this._updateElementValue();
+		this._elementValueDidChange();
 				
 		var $el = this.$(),
 			mlStr = 'maxLength';
